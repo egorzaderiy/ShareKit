@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		33D8B1251B25DD1E00E47ACB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D8B1221B25DD1D00E47ACB /* FBSDKCoreKit.framework */; };
-		33D8B1261B25DD1E00E47ACB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D8B1231B25DD1D00E47ACB /* FBSDKLoginKit.framework */; };
 		456BADAB169107D1005B3077 /* SHKGooglePlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 456BADA9169107D1005B3077 /* SHKGooglePlus.h */; };
 		456BADAC169107D1005B3077 /* SHKGooglePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = 456BADAA169107D1005B3077 /* SHKGooglePlus.m */; };
 		456BADAD1691095B005B3077 /* libGoogle Plus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4503EBC0169104470057294C /* libGoogle Plus.a */; };
@@ -691,6 +690,7 @@
 		DE334C2216F3339300FF692B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		DE334C2D16F3339A00FF692B /* SHKDropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = DE334C0616F3319800FF692B /* SHKDropbox.m */; };
 		DE334C2E16F333A800FF692B /* libDropbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE334C2116F3339300FF692B /* libDropbox.a */; };
+		E4132B49207F87B700793683 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4132B48207F87B700793683 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1102,7 +1102,6 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		33D8B1221B25DD1D00E47ACB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Frameworks/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		33D8B1231B25DD1D00E47ACB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		427FBAB11592F7C90024F825 /* ENOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENOAuthViewController.h; sourceTree = "<group>"; };
 		427FBAB21592F7C90024F825 /* ENOAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENOAuthViewController.m; sourceTree = "<group>"; };
 		427FBAED15934A0D0024F825 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "../../Core NoARC/Categories/GTMNSString+HTML.h"; sourceTree = "<group>"; };
@@ -1947,6 +1946,7 @@
 		DE334C0616F3319800FF692B /* SHKDropbox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHKDropbox.m; sourceTree = "<group>"; };
 		DE334C2116F3339300FF692B /* libDropbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDropbox.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE334C3E16F334A600FF692B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E4132B48207F87B700793683 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		E68738BE1416795C00D8C3DD /* SHKLogout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKLogout.h; sourceTree = "<group>"; };
 		E68738BF1416795C00D8C3DD /* SHKLogout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKLogout.m; sourceTree = "<group>"; };
 		F92EF487148E915E0070F913 /* SHKiOSTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKiOSTwitter.h; sourceTree = "<group>"; };
@@ -2119,6 +2119,7 @@
 				7AECF40F171D52DF000722FA /* libYouTube.a in Frameworks */,
 				7AECF40E171D52DB000722FA /* libYouTube SDK.a in Frameworks */,
 				DE334C2E16F333A800FF692B /* libDropbox.a in Frameworks */,
+				E4132B49207F87B700793683 /* FBSDKLoginKit.framework in Frameworks */,
 				7AAE8CA916EB965200429C51 /* libPlurk.a in Frameworks */,
 				7A203D0C16EB7E2300421995 /* libHatena.a in Frameworks */,
 				456BADAD1691095B005B3077 /* libGoogle Plus.a in Frameworks */,
@@ -2134,7 +2135,6 @@
 				7AC28F14165A21C2006D7441 /* libFoursquareV2.a in Frameworks */,
 				7AC28F16165A21C2006D7441 /* libInstagram.a in Frameworks */,
 				33D8B1251B25DD1E00E47ACB /* FBSDKCoreKit.framework in Frameworks */,
-				33D8B1261B25DD1E00E47ACB /* FBSDKLoginKit.framework in Frameworks */,
 				7AC28F17165A21C2006D7441 /* libInstapaper.a in Frameworks */,
 				7AC28F1A165A21C2006D7441 /* libLinkedIn.a in Frameworks */,
 				7AC28F1B165A21C2006D7441 /* libLogout.a in Frameworks */,
@@ -2490,8 +2490,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E4132B48207F87B700793683 /* FBSDKLoginKit.framework */,
 				33D8B1221B25DD1D00E47ACB /* FBSDKCoreKit.framework */,
-				33D8B1231B25DD1D00E47ACB /* FBSDKLoginKit.framework */,
 				C4B15458192E07A60080EBE3 /* SafariServices.framework */,
 				7A85B55D17FA204700C86E77 /* libxml2.dylib */,
 				7A3A0D90170CC94B00A0B717 /* CoreMedia.framework */,
