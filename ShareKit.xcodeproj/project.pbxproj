@@ -2118,7 +2118,6 @@
 				9492063917302B4C00DF9530 /* libKippt.a in Frameworks */,
 				7AECF40F171D52DF000722FA /* libYouTube.a in Frameworks */,
 				7AECF40E171D52DB000722FA /* libYouTube SDK.a in Frameworks */,
-				33D8B1261B25DD1E00E47ACB /* FBSDKLoginKit.framework in Frameworks */,
 				DE334C2E16F333A800FF692B /* libDropbox.a in Frameworks */,
 				7AAE8CA916EB965200429C51 /* libPlurk.a in Frameworks */,
 				7A203D0C16EB7E2300421995 /* libHatena.a in Frameworks */,
@@ -2135,6 +2134,7 @@
 				7AC28F14165A21C2006D7441 /* libFoursquareV2.a in Frameworks */,
 				7AC28F16165A21C2006D7441 /* libInstagram.a in Frameworks */,
 				33D8B1251B25DD1E00E47ACB /* FBSDKCoreKit.framework in Frameworks */,
+				33D8B1261B25DD1E00E47ACB /* FBSDKLoginKit.framework in Frameworks */,
 				7AC28F17165A21C2006D7441 /* libInstapaper.a in Frameworks */,
 				7AC28F1A165A21C2006D7441 /* libLinkedIn.a in Frameworks */,
 				7AC28F1B165A21C2006D7441 /* libLogout.a in Frameworks */,
@@ -7572,7 +7572,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/ShareKitLibrary.dst;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -7601,7 +7604,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/ShareKitLibrary.dst;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShareKitLibrary/ShareKitLibrary-Prefix.pch";
