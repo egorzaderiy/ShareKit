@@ -40,8 +40,8 @@ Pod::Spec.new do |s|
 
   s.subspec 'Facebook' do |facebook|
     facebook.source_files   = 'Classes/ShareKit/Sharers/Services/Facebook/**/*.{h,m}'
-    facebook.dependency 'FBSDKCoreKit', '~> 4.2'
-    facebook.dependency 'FBSDKLoginKit', '~> 4.2'
+    facebook.dependency 'FBSDKCoreKit', '4.2'
+    facebook.dependency 'FBSDKLoginKit', '4.2'
     facebook.dependency 'ShareKit/Core'
   end
 

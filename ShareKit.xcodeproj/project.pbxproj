@@ -432,7 +432,6 @@
 		7A5340CF1A1F3C3200659425 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5340CC1A1F3C3200659425 /* ISO8601DateFormatter.m */; };
 		7A5340D21A1F3C6700659425 /* libiso-8601-date-formatter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5340CA1A1F3B6100659425 /* libiso-8601-date-formatter.a */; };
 		7A56BFC41659173D00134F04 /* SHKiOSSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A56BFC01659173D00134F04 /* SHKiOSSharer.m */; };
-		7A56BFDE16591FE000134F04 /* SHKiOSFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A56BFD916591FE000134F04 /* SHKiOSFacebook.m */; };
 		7A57618F17A8034A00B38ACB /* SHKFormFieldCellTextLarge.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A57618D17A8034900B38ACB /* SHKFormFieldCellTextLarge.h */; };
 		7A57619017A8034A00B38ACB /* SHKFormFieldCellTextLarge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A57618E17A8034900B38ACB /* SHKFormFieldCellTextLarge.m */; };
 		7A5C28D11894555C00E47E62 /* SHKUploadsViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5C28CF1894555C00E47E62 /* SHKUploadsViewCell.h */; };
@@ -1645,8 +1644,6 @@
 		7A56BFBF1659173D00134F04 /* SHKiOSSharer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKiOSSharer.h; sourceTree = "<group>"; };
 		7A56BFC01659173D00134F04 /* SHKiOSSharer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SHKiOSSharer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		7A56BFD716591D5500134F04 /* SHKiOSSharer_Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHKiOSSharer_Protected.h; sourceTree = "<group>"; };
-		7A56BFD816591FE000134F04 /* SHKiOSFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKiOSFacebook.h; sourceTree = "<group>"; };
-		7A56BFD916591FE000134F04 /* SHKiOSFacebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKiOSFacebook.m; sourceTree = "<group>"; };
 		7A57618D17A8034900B38ACB /* SHKFormFieldCellTextLarge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKFormFieldCellTextLarge.h; sourceTree = "<group>"; };
 		7A57618E17A8034900B38ACB /* SHKFormFieldCellTextLarge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKFormFieldCellTextLarge.m; sourceTree = "<group>"; };
 		7A5C28CF1894555C00E47E62 /* SHKUploadsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKUploadsViewCell.h; sourceTree = "<group>"; };
@@ -2924,8 +2921,6 @@
 			children = (
 				43A536DC11DBE3B9004A1712 /* SHKFacebook.h */,
 				43A536DD11DBE3B9004A1712 /* SHKFacebook.m */,
-				7A56BFD816591FE000134F04 /* SHKiOSFacebook.h */,
-				7A56BFD916591FE000134F04 /* SHKiOSFacebook.m */,
 				7A04074418313A5F00691F2B /* SHKFacebookCommon.h */,
 				7A04074518313A5F00691F2B /* SHKFacebookCommon.m */,
 			);
@@ -6251,7 +6246,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AABBED29162F0B65009D46E4 /* SHKFacebook.m in Sources */,
-				7A56BFDE16591FE000134F04 /* SHKiOSFacebook.m in Sources */,
 				7A04074718313A5F00691F2B /* SHKFacebookCommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

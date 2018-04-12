@@ -17,7 +17,6 @@ NSString *const kSHKFacebookAPIFeedURL = @"https://graph.facebook.com/v2.2/me/fe
 NSString *const kSHKFacebookAPIPhotosURL = @"https://graph.facebook.com/v2.2/me/photos";
 NSString *const kSHKFacebookAPIVideosURL = @"https://graph.facebook.com/v2.2/me/videos";
 
-#define ACTIONS_API_KEY @"actions"
 #define LINK_API_KEY @"link"
 #define NAME_API_KEY @"name"
 #define MESSAGE_API_KEY @"message"
@@ -75,11 +74,7 @@ NSString *const kSHKFacebookAPIVideosURL = @"https://graph.facebook.com/v2.2/me/
 + (NSMutableDictionary *)composeParamsForItem:(SHKItem *)item {
     
     NSMutableDictionary *result = [@{} mutableCopy];
-    
-    NSString *actions = [NSString stringWithFormat:@"{\"name\":\"%@ %@\",\"link\":\"%@\"}",
-                         SHKLocalizedString(@"Get"), SHKCONFIG(appName), SHKCONFIG(appURL)];
-    [result setObject:actions forKey:ACTIONS_API_KEY];
-    
+
     switch (item.shareType) {
         case SHKShareTypeText:
         case SHKShareTypeURL:
