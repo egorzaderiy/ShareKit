@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'ShareKit'
-  s.version       = '6.0.1b'
+  s.version       = '6.0.1с'
   s.platform      = :ios, '8.0'
   s.summary       = 'Drop in sharing features for all iPhone and iPad apps.'
   s.homepage      = 'http://getsharekit.com/'
@@ -40,8 +40,8 @@ Pod::Spec.new do |s|
 
   s.subspec 'Facebook' do |facebook|
     facebook.source_files   = 'Classes/ShareKit/Sharers/Services/Facebook/**/*.{h,m}'
-    facebook.dependency 'FBSDKCoreKit', '4.2'
-    facebook.dependency 'FBSDKLoginKit', '4.2'
+    facebook.dependency 'FBSDKCoreKit', '4.26.0'
+    facebook.dependency 'FBSDKLoginKit', '4.26.0'
     facebook.dependency 'ShareKit/Core'
   end
 
