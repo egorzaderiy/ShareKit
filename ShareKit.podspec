@@ -42,6 +42,7 @@ Pod::Spec.new do |s|
     facebook.source_files   = 'Classes/ShareKit/Sharers/Services/Facebook/**/*.{h,m}'
     facebook.dependency 'FBSDKCoreKit', '4.26.0'
     facebook.dependency 'FBSDKLoginKit', '4.26.0'
+    facebook.dependency 'FBSDKShareKit', '4.26.0'
     facebook.dependency 'ShareKit/Core'
   end
 
