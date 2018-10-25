@@ -202,7 +202,7 @@
 }
 
 + (BOOL)canShare {
-    return [self.class hasGranted:@[PUBLISH_PERMISSION]];
+    return [SHKFacebookCommon socialFrameworkAvailable];
 }
 
 #pragma mark -
